@@ -2,8 +2,8 @@
 
 ## Technologies
 
-- ReactJS
-- Chakra UI
-- Next.js
-- Three.js
-- Framer Motion
+- [React](https://reactjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [Next.js](https://nextjs.org/)
+- [Three.js](https://threejs.org/)
+- [Framer Motion](https://www.framer.com/motion/)
