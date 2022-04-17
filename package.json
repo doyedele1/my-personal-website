@@ -1,0 +1,39 @@
+{
+  "name": "my-personal-website",
+  "version": "1.0.0",
+  "description": "Demilade's Personal Website",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doyedele1/my-personal-website.git"
+  },
+  "keywords": [],
+  "author": "Demilade Oyedele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doyedele1/my-personal-website/issues"
+  },
+  "homepage": "https://github.com/doyedele1/my-personal-website#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.3.0",
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-next": "^12.1.5",
+    "prettier": "^2.6.2"
+  }
+}
