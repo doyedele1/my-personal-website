@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Text, useColorModeValue } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 
+// logo box styled component
 const LogoBox = styled.span`
     font-weight: bold;
     font-size: 18px;
