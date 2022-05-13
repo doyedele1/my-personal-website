@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react';
 const Footer = () => {
     return (
         <Box align="center" opacity={0.4} fontSize="sm">
-            &copy; {new Date().getFullYear()} Demilade Oyedele. All Rights Reserved.
+            Made with ♥ by Demilade Oyedele. &copy; {new Date().getFullYear()}
         </Box>
     )
 }
