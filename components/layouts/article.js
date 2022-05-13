@@ -32,7 +32,7 @@ const Layout = ({ children, title }) => {
                 <GridItemStyle />
             </>
         </motion.article>
-    )
+    );
 }
 
 export default Layout;
