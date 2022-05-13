@@ -150,7 +150,7 @@ const Home = () => (
                 </Heading>
                 <List>
                     <ListItem>
-                        <Link href="https://github.com/craftzdog" target="_blank">
+                        <Link href="https://github.com/doyedele1" target="_blank">
                             <Button
                                 variant="ghost"
                                 colorScheme="teal"
@@ -161,7 +161,7 @@ const Home = () => (
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link href="https://twitter.com/inkdrop_app" target="_blank">
+                        <Link href="https://twitter.com/oracledev98" target="_blank">
                             <Button
                                 variant="ghost"
                                 colorScheme="teal"
@@ -172,7 +172,7 @@ const Home = () => (
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link href="https://instagram.com/craftzdog" target="_blank">
+                        <Link href="https://instagram.com/demi.breezy" target="_blank">
                             <Button
                                 variant="ghost"
                                 colorScheme="teal"
@@ -202,7 +202,7 @@ const Home = () => (
                 </SimpleGrid>
 
                 <Box align="center" my={4}>
-                    <NextLink href="/posts" scroll={false}>
+                    <NextLink href="/posts" passHref scroll={false}>
                         <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                             Popular posts
                         </Button>
@@ -211,7 +211,7 @@ const Home = () => (
             </Section>
         </Container>
     </Layout>
-)
+);
 
 export default Home;
 export { getServerSideProps } from '../components/chakra';
