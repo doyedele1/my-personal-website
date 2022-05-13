@@ -8,7 +8,7 @@ export default function Chakra({ cookies, children }) {
         <ChakraProvider theme={theme} colorModeManager={colorModeManager}>
             {children}
         </ChakraProvider>
-    )
+    );
 }
 
 export async function getServerSideProps({ req }) {
@@ -16,5 +16,5 @@ export async function getServerSideProps({ req }) {
         props: {
             cookies: req.headers.cookie ?? ''
         }
-    }
+    };
 }
